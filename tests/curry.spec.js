@@ -11,8 +11,9 @@ describe('CURRY', () => {
   it('should curry a function which takes more than one argument', () => {
     const multipleArgFn = (arg1 = '', arg2 = '') => 'this: ' + arg1 + ' and ' + 'that: ' + arg2
     const thisAndThat = curry(multipleArgFn)
-    console.log(thisAndThat)
-    const thisValAndThat = thisAndThat('hi', 'hello')
-    expect(thisValAndThat).to.equal('this: hi and that: hello')
+    const thisAndThatArgsList = thisAndThat('hi', 'hello')
+    const thisAndThatArgs = thisAndThat('hi')('hello')
+    expect(thisAndThatArgsList).to.equal('this: hi and that: hello')
+    expect(thisAndThatArgs).to.equal('this: hi and that: hello')
   })
 })
