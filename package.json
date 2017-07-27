@@ -1,0 +1,24 @@
+{
+  "name": "es-curry-compose",
+  "version": "1.0.0",
+  "description": "curry, compose, pipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha */**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyc/es-curry-compose.git"
+  },
+  "keywords": [
+    "curry",
+    "compose",
+    "pipe"
+  ],
+  "author": "Corey Cleary",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}
