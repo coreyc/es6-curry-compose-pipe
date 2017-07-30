@@ -1,6 +1,6 @@
 {
-  "name": "es-curry-compose",
-  "version": "1.0.0",
+  "name": "es6-curry-compose-pipe",
+  "version": "1.0.2",
   "description": "curry, compose, pipe",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coreyc/es-curry-compose.git"
+    "url": "git+https://github.com/coreyc/es6-curry-compose-pipe.git"
   },
   "keywords": [
     "curry",
