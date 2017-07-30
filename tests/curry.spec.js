@@ -12,8 +12,6 @@ describe('CURRY', () => {
     const multipleArgFn = (arg1 = '', arg2 = '') => 'this: ' + arg1 + ' and ' + 'that: ' + arg2
     const thisAndThat = curry(multipleArgFn)
     const thisAndThatArgsList = thisAndThat('hi', 'hello')
-    const thisAndThatArgs = thisAndThat('hi')('hello')
     expect(thisAndThatArgsList).to.equal('this: hi and that: hello')
-    expect(thisAndThatArgs).to.equal('this: hi and that: hello')
   })
 })
